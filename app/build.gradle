@@ -1,0 +1,42 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion '20.0.0'
+    defaultConfig {
+        applicationId "com.blast.app"
+        minSdkVersion 14
+        targetSdkVersion 14
+        versionCode 1
+        versionName "1.0"
+    }
+
+    signingConfigs {
+        release {
+            storeFile file("blast.keystore")
+            storePassword "blast123"
+            keyAlias "blast"
+            keyPassword "blast123"
+        }
+    }
+
+
+    buildTypes {
+        debug {
+//            buildConfig "public final static boolean HAS_PROTOTYPE_FEATURE = true;"
+        }
+
+        release {
+            signingConfig signingConfigs.release
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.squareup:otto:1.3.+'
+}

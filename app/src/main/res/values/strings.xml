@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">爆破计算</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open_title">选择计算方法</string>
+    <string name="drawer_close_title">爆破计算</string>
+    <string name="blast_formula1">土壤和岩石爆破</string>
+    <string name="blast_formula2">原木和方木爆破</string>
+    <string name="blast_formula3">密集木桩爆破</string>
+    <string name="blast_formula4">钢板爆破</string>
+    <string name="blast_formula5">砖、石、混凝土构件爆破</string>
+    // 桥梁爆破分解
+    <string name="blast_formula6">木桥爆破</string>
+    <string name="blast_formula7">石拱桥和混凝土桥爆破</string>
+    <string name="blast_formula8">钢桥板梁爆破</string>
+    <string name="blast_formula9">钢桥桁架爆破</string>
+    //
+    <string name="blast_formula10">桥梁爆破</string>
+    <string name="soil_note">1、使用低级炸药时，系数A与中级炸药同。爆破坚硬的岩石如用低级炸药，应按公式算出的装药量增大0.2~0.5倍。\n
+2、如系分层土壤，系数A取最坚硬一层的数值。\n
+3、坚硬的岩石有缝隙时，系数A应减小1/2。\n
+有条件时，最好用寻常装药试验爆炸校正系数。</string>
+    <string name="brick_note">        1、系数值是指中级炸药而言，低级炸药只用作内部装药，如用于外部爆破应按计算药量的50%增加。\n
+        2、坚硬的材料有缝隙时系数值减小1/2。</string>
+    <string name="invalidNumberException">请输入正确的数字！</string>
+    <string name="brick_group_tab_title">集团装药量</string>
+    <string name="brick_line_tab_title">直列装药量</string>
+    <string name="calc">计 算</string>
+    <string name="soil_formula">计算公式：C = ABh³(三次方)</string>
+    <string name="focuswood_formula">计算公式：C = 30KD²r(平方)</string>
+    <string name="brick_group_formula">计算公式：C = ABR³(三次方)</string>
+    <string name="wood_formula">计算公式：C=KF</string>
+    <string name="brick_line_formula">计算公式：C=ABLR²（平方）</string>
+    <string name="soil_label1">1、选择土壤抗力系统A:</string>
+    <string name="soil_label2">2、选择装药作用系统B:</string>
+    <string name="soil_label3">3、最小抵抗线h(米)：</string>
+    <string name="wood_label1">1、选择木材抗力系数K：</string>
+    <string name="wood_label2">2、炸断面积F(cm²)：</string>
+    <string name="sp_wood_prompt1">选择木材抗力系数K：</string>
+    <string name="sp_brick_prompt1">选择材料抗力系数A：</string>
+    <string name="sp_brick_prompt2">选择填塞系数B：</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="wooden_bridge_line_tab_title">直列装药爆破</string>
+    <string name="wooden_bridge_group_tab_title">集团装药爆破</string>
+    <string name="steel_bridge_line_tab_title">直列装药接触爆破</string>
+    <string name="steel_bridge_group_tab_title">集团装药接触爆破</string>
+    <string name="steel_bridge_group_contactless_tab_title">集团装药非接触爆破</string>
+    <string name="truss_bridge_one_tab_title">1个集团装药爆破</string>
+    <string name="truss_bridge_four_tab_title">4个集团装药爆破</string>
+    <string name="truss_bridge_six_tab_title">6个装药爆破</string>
+    <string name="stone_bridge_formula">计算公式：C = 1.3ABR³</string>
+    <string name="soil_title1">1、请选择土壤抗力系数A：</string>
+    <string name="soil_title2">2、请选择装药作用系数B：</string>
+    <string name="soil_title3">3、最小抵抗线h(m)：</string>
+    <string name="wood_tip1">为计算简便，原木的炸断面积可以按直径的平方计算。</string>
+    <string name="wood_tip2">附注：使用硝铵炸药时，应按上式计算的装药量增加50%。</string>
+    <string name="focuswood_title1">1、选择木材抗力系数K：</string>
+    <string name="focuswood_title2">2、最大原木直径或方木边长D(m)：</string>
+    <string name="focuswood_title3">3、由装药中心到最远木桩外缘的距离r(m)：</string>
+    <string name="steel_formula">计算公式：\n炸断钢板，通常使用梯恩梯炸药。爆破普通钢板时\n \t当钢板厚度h小于2.5cm时：C=25F\n \t当钢板厚度h为2.5~10cm时：C=10hF</string>
+    <string name="steel_title1">1、钢板厚度h(cm)：(限制不得高于10cm)</string>
+    <string name="steel_title2">2、钢板炸断面积F(cm²)：</string>
+    <string name="steel_tip">附注：爆破装甲钢时，装药量按公式计算后再增加1倍。</string>
+    <string name="brick_group_title1">1、选择材料抗力系数A：</string>
+    <string name="brick_group_title2">2、选择填塞系数B：</string>
+    <string name="brick_group_title3">3、破坏半径R(m)：</string>
+    <string name="brick_line_title4">4、装药长度(m)：</string>
+    <string name="wooden_bridge_tip">注：木材直径不大于25cm时，用一列200克梯恩梯药块；直径大于25cm时，用一列400克梯恩梯药块。</string>
+    <string name="wooden_bridge_group_title2">2、桥桁或桩柱的最大直径D(m)：</string>
+    <string name="wooden_bridge_group_title3">3、木桥宽度的一半r(m)：</string>
+    <string name="steel_bridge_line_formula">计算公式：C = 10hF</string>
+    <string name="steel_bridge_line_title1">1、钢板厚度h(cm)：</string>
+    <string name="steel_bridge_line_title2">2、钢板炸断面积F(cm²)：</string>
+    <string name="steel_bridge_group_formula">计算公式：\n         \t当板梁长度L＜或＝15m时：C = L + 4\n         \t当板梁长度L＞15m时：C = 1.25L + 4</string>
+    <string name="steel_bridge_group_title">板梁长度L(m)：</string>
+    <string name="steel_bridge_group_contactless_formula">计算公式：C = 20R²</string>
+    <string name="steel_bridge_group_contactless_title">从装药中心到板梁上（下）翼缘的最大距离（m），其值应不小于板梁间距的0.7倍：</string>
+    <string name="truss_bridge_one_title3">3、破坏半径R(m)，其值不得大于2.5m：</string>
+    <string name="truss_bridge_four_formula">计算公式：C = 0.25L + 10</string>
+    <string name="truss_bridge_four_title1">桥跨长度L(m)：</string>
+    <string name="truss_bridge_six_formula">计算公式：C = 25F</string>
+    <string name="truss_bridge_six_title">钢板炸断面积F(cm²)：</string>
+
+    <!--
+    <item>新积松土地(0.26)</item>
+    <item>带有砂和碎石的土地(0.51)</item>
+    <item>生长植物的土壤(0.57)</item>
+    <item>湿砂、夹砂地(0.66)</item>
+    <item>砂质粘土及坚硬的青粘土(0.70)</item>
+    <item>多石土壤(0.77)</item>
+    <item>红粘土(0.98)</item>
+    <item>石灰岩(1.11)</item>
+    <item>花岗岩(1.34)</item>
+    -->
+    <string name="soil_resistance_ratio_option1">新积松土地(0.26)</string>
+    <string name="soil_resistance_ratio_option2">带有砂和碎石的土地(0.51)</string>
+    <string name="soil_resistance_ratio_option3">生长植物的土壤(0.57)</string>
+    <string name="soil_resistance_ratio_option4">湿砂、夹砂地(0.66)</string>
+    <string name="soil_resistance_ratio_option5">砂质粘土及坚硬的青粘土(0.70)</string>
+    <string name="soil_resistance_ratio_option6">多石土壤(0.77)</string>
+    <string name="soil_resistance_ratio_option7">红粘土(0.98)</string>
+    <string name="soil_resistance_ratio_option8">石灰岩(1.11)</string>
+    <string name="soil_resistance_ratio_option9">花岗岩(1.34)</string>
+
+    <!--
+    <string-array name="soil_impact_ratio">
+    <item>微量装药(0.35)</item>
+    <item>震荡装药(0.7)</item>
+    <item>寻常装药(1.7)</item>
+    <item>1.5倍过量装药(5.06)</item>
+    <item>2倍过量装药(13.2)</item>
+</string-array>
+    -->
+    <string name="soil_impact_ratio_option1">微量装药(0.35)</string>
+    <string name="soil_impact_ratio_option2">震荡装药(0.7)</string>
+    <string name="soil_impact_ratio_option3">寻常装药(1.7)</string>
+    <string name="soil_impact_ratio_option4">1.5倍过量装药(5.06)</string>
+    <string name="soil_impact_ratio_option5">2倍过量装药(13.2)</string>
+
+
+    <string name="wood_resistance_ratio_option1">干-脆弱木材[杨、柳](0.8)</string>
+    <string name="wood_resistance_ratio_option2">湿-脆弱木材[杨、柳](1.0)</string>
+    <string name="wood_resistance_ratio_option3">干-中等坚硬木材[松、杉](1.0)</string>
+    <string name="wood_resistance_ratio_option4">湿-中等坚硬木材[松、杉](1.25)</string>
+    <string name="wood_resistance_ratio_option5">干-坚硬木材[枫、樟、橡、粟](1.60)</string>
+    <string name="wood_resistance_ratio_option6">湿-坚硬木材[枫、樟、橡、粟](2.0)</string>
+
+
+    <string name="brick_resistance_ratio_option1">不坚固石灰砂浆砖墙(0.77)</string>
+    <string name="brick_resistance_ratio_option2">坚固石灰砂浆砖墙(1.08)</string>
+    <string name="brick_resistance_ratio_option3">水泥砂浆砖墙(1.24)</string>
+    <string name="brick_resistance_ratio_option4">料石砌的墙(1.45)</string>
+    <string name="brick_resistance_ratio_option5">混凝土(1.8)</string>
+    <string name="brick_resistance_ratio_option6">钢筋混凝土[只炸混凝土不炸钢筋时](5.0)</string>
+
+
+    <string name="brick_fill_ratio_option1">在表面上[外部装药][无填塞物](9.0)</string>
+    <string name="brick_fill_ratio_option2">在表面上[外部装药][有填塞物](5.0)</string>
+    <string name="brick_fill_ratio_option3">在表面上[外部装药]钢筋混凝土[有填塞物](6.5)</string>
+    <string name="brick_fill_ratio_option4">在药龛中[无填塞物](6.0)</string>
+    <string name="brick_fill_ratio_option5">在药龛中[有填塞物](4.5)</string>
+    <string name="brick_fill_ratio_option6">在爆破目标1/3厚度的药洞中[无填塞物](1.7)</string>
+    <string name="brick_fill_ratio_option7">在爆破目标1/3厚度的药洞中[有填塞物](1.5)</string>
+    <string name="brick_fill_ratio_option8">在爆破目标的中央[无填塞物](1.3)</string>
+    <string name="brick_fill_ratio_option9">在爆破目标的中央[无填塞物](1.15)</string>
+    <string name="brick_fill_ratio_option10">在桥台、挡土墙的土壤中[无填塞物](1.7)</string>
+    <string name="brick_fill_ratio_option11">在桥台、挡土墙的土壤中[有填塞物](1.5)</string>
+    <string name="action_china">中文</string>
+    <string name="action_english">english</string>
+    <string name="result">装药量：</string>
+    <string name="dlg_title">提示</string>
+    <string name="dlg_cancel">取消</string>
+    <string name="dlg_ok">确定</string>
+
+</resources>

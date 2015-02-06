@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name="blast_formula_titles">
+        <item>@string/blast_formula1</item>
+        <item>@string/blast_formula2</item>
+        <item>@string/blast_formula3</item>
+        <item>@string/blast_formula4</item>
+        <item>@string/blast_formula5</item>
+        <item>@string/blast_formula6</item>
+        <item>@string/blast_formula7</item>
+        <item>@string/blast_formula8</item>
+        <item>@string/blast_formula9</item>
+        <!--<item>@string/blast_formula10</item>-->
+    </string-array>
+
+    <string-array name="soil_resistance_ratio">
+    <item>@string/soil_resistance_ratio_option1</item>
+    <item>@string/soil_resistance_ratio_option2</item>
+    <item>@string/soil_resistance_ratio_option3</item>
+    <item>@string/soil_resistance_ratio_option4</item>
+    <item>@string/soil_resistance_ratio_option5</item>
+    <item>@string/soil_resistance_ratio_option6</item>
+    <item>@string/soil_resistance_ratio_option7</item>
+    <item>@string/soil_resistance_ratio_option8</item>
+    <item>@string/soil_resistance_ratio_option9</item>
+
+    <!--<item>新积松土地(0.26)</item>-->
+    <!--<item>带有砂和碎石的土地(0.51)</item>-->
+    <!--<item>生长植物的土壤(0.57)</item>-->
+    <!--<item>湿砂、夹砂地(0.66)</item>-->
+    <!--<item>砂质粘土及坚硬的青粘土(0.70)</item>-->
+    <!--<item>多石土壤(0.77)</item>-->
+    <!--<item>红粘土(0.98)</item>-->
+    <!--<item>石灰岩(1.11)</item>-->
+    <!--<item>花岗岩(1.34)</item>-->
+</string-array>
+
+    <string-array name="soil_resistance_ratio_value">
+        <item>0.26</item>
+        <item>0.51</item>
+        <item>0.57</item>
+        <item>0.66</item>
+        <item>0.70</item>
+        <item>0.77</item>
+        <item>0.98</item>
+        <item>1.11</item>
+        <item>1.34</item>
+    </string-array>
+
+    <!--<string-array name="soil_impact_ratio">-->
+    <!--<item>微量装药(0.35)</item>-->
+    <!--<item>震荡装药(0.7)</item>-->
+    <!--<item>寻常装药(1.7)</item>-->
+    <!--<item>1.5倍过量装药(5.06)</item>-->
+    <!--<item>2倍过量装药(13.2)</item>-->
+<!--</string-array>-->
+<string-array name="soil_impact_ratio">
+    <item>@string/soil_impact_ratio_option1</item>
+    <item>@string/soil_impact_ratio_option2</item>
+    <item>@string/soil_impact_ratio_option3</item>
+    <item>@string/soil_impact_ratio_option4</item>
+    <item>@string/soil_impact_ratio_option5</item>
+</string-array>
+
+    <string-array name="soil_impact_ratio_value">
+        <item>0.35</item>
+        <item>0.7</item>
+        <item>1.7</item>
+        <item>5.06</item>
+        <item>13.2</item>
+    </string-array>
+    
+    <string-array name="wood_resistance_ratio">
+        <item>@string/wood_resistance_ratio_option1</item>
+        <item>@string/wood_resistance_ratio_option2</item>
+        <item>@string/wood_resistance_ratio_option3</item>
+        <item>@string/wood_resistance_ratio_option4</item>
+        <item>@string/wood_resistance_ratio_option5</item>
+        <item>@string/wood_resistance_ratio_option6</item>
+    </string-array>
+
+    <string-array name="brick_resistance_ratio">
+        <item>@string/brick_resistance_ratio_option1</item>
+        <item>@string/brick_resistance_ratio_option2</item>
+        <item>@string/brick_resistance_ratio_option3</item>
+        <item>@string/brick_resistance_ratio_option4</item>
+        <item>@string/brick_resistance_ratio_option5</item>
+        <item>@string/brick_resistance_ratio_option6</item>
+    </string-array>
+
+    <string-array name="brick_fill_ratio">
+        <item>@string/brick_fill_ratio_option1</item>
+        <item>@string/brick_fill_ratio_option2</item>
+        <item>@string/brick_fill_ratio_option3</item>
+        <item>@string/brick_fill_ratio_option4</item>
+        <item>@string/brick_fill_ratio_option5</item>
+        <item>@string/brick_fill_ratio_option6</item>
+        <item>@string/brick_fill_ratio_option7</item>
+        <item>@string/brick_fill_ratio_option8</item>
+        <item>@string/brick_fill_ratio_option9</item>
+        <item>@string/brick_fill_ratio_option10</item>
+        <item>@string/brick_fill_ratio_option11</item>
+    </string-array>
+
+    <!--<string-array name="wood_resistance_ratio">
+        <item>干-脆弱木材[杨、柳](0.8)</item>
+        <item>湿-脆弱木材[杨、柳](1.0)</item>
+        <item>干-中等坚硬木材[松、杉](1.0)</item>
+        <item>湿-中等坚硬木材[松、杉](1.25)</item>
+        <item>干-坚硬木材[枫、樟、橡、粟](1.60)</item>
+        <item>湿-坚硬木材[枫、樟、橡、粟](2.0)</item>
+    </string-array>
+
+    <string-array name="brick_resistance_ratio">
+        <item>不坚固石灰砂浆砖墙(0.77)</item>
+        <item>坚固石灰砂浆砖墙(1.08)</item>
+        <item>水泥砂浆砖墙(1.24)</item>
+        <item>料石砌的墙(1.45)</item>
+        <item>混凝土(1.8)</item>
+        <item>钢筋混凝土[只炸混凝土不炸钢筋时](5.0)</item>
+    </string-array>
+
+    <string-array name="brick_fill_ratio">
+        <item>在表面上[外部装药][无填塞物](9.0)</item>
+        <item>在表面上[外部装药][有填塞物](5.0)</item>
+        <item>在表面上[外部装药]钢筋混凝土[有填塞物](6.5)</item>
+        <item>在药龛中[无填塞物](6.0)</item>
+        <item>在药龛中[有填塞物](4.5)</item>
+        <item>在爆破目标1/3厚度的药洞中[无填塞物](1.7)</item>
+        <item>在爆破目标1/3厚度的药洞中[有填塞物](1.5)</item>
+        <item>在爆破目标的中央[无填塞物](1.3)</item>
+        <item>在爆破目标的中央[无填塞物](1.15)</item>
+        <item>在桥台、挡土墙的土壤中[无填塞物](1.7)</item>
+        <item>在桥台、挡土墙的土壤中[有填塞物](1.5)</item>
+    </string-array>
+-->
+</resources>

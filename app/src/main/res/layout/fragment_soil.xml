@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".fragments.SoilFragment">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/soil_formula"  />
+
+    <!-- android:drawableRight="@drawable/question" -->
+    <TextView
+        android:id="@+id/tv_ratio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="5dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/soil_title1" />
+
+    <Spinner
+        android:id="@+id/sp_resistance_ratio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/soil_label1"
+        android:text="@string/soil_label1"
+        android:spinnerMode="dialog"
+        android:entries="@array/soil_resistance_ratio" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/soil_title2" />
+
+    <Spinner
+        android:id="@+id/sp_impact_ratio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/soil_label2"
+        android:text="@string/soil_label2"
+        android:spinnerMode="dialog"
+        android:entries="@array/soil_impact_ratio"
+         />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/soil_title3" />
+
+        <EditText
+            android:id="@+id/et_min_resistance_line"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_calc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/calc" />
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="装药量为："
+        android:visibility="gone" />
+    <TextView
+        android:id="@+id/tv_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/soil_note" />
+
+
+</LinearLayout>
